@@ -1,0 +1,126 @@
+/* ==UserStyle==
+@name       DBZ Goku Orange Youtube
+@version    1.0.0
+@namespace  DBZ Goku Orange
+@author     Ghady983
+@updateURL  https://userstyles.world
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+body {
+    background: url(https://i.imgur.com/5DKaa6G.jpg) !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+html[dark] {
+  background-color: #0f0f0f00 !important;
+}
+ytd-app {
+  background: rgba(0, 0, 0, 0);
+}
+
+ytd-masthead[frosted-glass-mode="without-chipbar"] #background.ytd-masthead {
+  background: #C67F03;
+}
+.ytSearchboxComponentInputBoxDark {
+  border-color:  #C67F03;
+  background-color: #ee9800; 
+  box-shadow: none;
+}
+.ytSearchboxComponentInputBoxDark.ytSearchboxComponentInputBoxHasFocus {
+  border-color:  #fbcf18; 
+}
+tp-yt-app-drawer.ytd-app[persistent] {
+ backdrop-filter: blur(10px);
+}
+.ytSearchboxComponentSearchButtonDark {
+  border: 1px solid #067bc8; 
+}
+.ytSearchboxComponentSuggestionsContainerScrollable {
+background-color: #ee9800; 
+}
+ytd-feed-nudge-renderer[nudge-style="modernized-nudge"] #content-wrapper.ytd-feed-nudge-renderer {
+  background-color: #C67F03;
+}
+#background.ytd-masthead {
+  background: #C67F03;
+}
+#tabs-inner-container.ytd-tabbed-page-header {
+  background-color: #ffa20000;
+    
+}
+#page-header-container.ytd-tabbed-page-header, #tabs-container.ytd-tabbed-page-header {
+  background-color: #000;
+}
+#page-header.ytd-tabbed-page-header {
+  background-color: #fff0;
+
+}
+.ytThumbnailViewModelAspectRatio16By9 {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.ytThumbnailViewModelAspectRatio16By9:hover {
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    box-shadow: 0 0 10px  #8cd8f0;
+  }
+  to {
+    box-shadow: 0 0 25px  #8cd8f0;
+  }
+}
+
+.ytLockupMetadataViewModelHeadingReset {
+       text-shadow: 
+    -1px -1px 0 #0000007a,  
+     1px -1px 0 #0000007a,
+    -1px  1px 0 #0000007a,
+     1px  1px 0 #0000007a;
+}
+.ytContentMetadataViewModelMediumText .ytContentMetadataViewModelMetadataText {
+  color:#fff;
+}
+.button-container.ytd-rich-shelf-renderer {
+  background-color: #0000;
+}
+.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextOutline {
+  background-color: #C67F03;
+}
+.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextOutline:hover {
+  background-color: #fbcf18;
+}
+#page-header-container.ytd-tabbed-page-header, #tabs-container.ytd-tabbed-page-header {
+  background-color: #fff0;
+    
+}
+.immersive-header-background-wrapper.ytd-playlist-header-renderer {
+    opacity: 0.5;  
+}
+.ytItemSectionRendererStickyHeader {
+  background-color: #c67f0300;
+}
+ytd-item-section-renderer[use-chip-bar-view-model-header][page-subtype="playlist"][not-sticky] #header.ytd-item-section-renderer {
+  background-color: #ffa20000;
+}
+ytd-item-section-renderer[use-chip-bar-view-model-header][page-subtype="playlist"] #header.ytd-item-section-renderer {
+  background-color: #c67f0300;
+}
+
+#frosted-glass.with-chipbar.ytd-app {
+  background: #ffa20000;
+}
+.ytAlertBannerViewModelTimeSensitive {
+  background-color: #067bc8; 
+}
+.ytImageBannerViewModelInset {
+  border-radius: 302px;
+}
+#cinematics.ytd-watch-flexy{
+ opacity:0;
+}
+
+}
