@@ -8,7 +8,7 @@
 
 @-moz-document domain("youtube.com") {
 body {
-    background: url(https://i.imgur.com/5DKaa6G.jpg) !important;
+  background: url(https://i.imgur.com/5DKaa6G.jpg) !important;
   background-attachment: fixed !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
